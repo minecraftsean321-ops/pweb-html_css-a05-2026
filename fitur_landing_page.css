@@ -25,10 +25,11 @@ body {
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {}
 .transparan {
     background-color: transparent;
-    width: 90%; /* Membuat wadah melebar hampir mentok kiri-kanan (menyisakan 10% ruang kosong) */
-    border-bottom: 2px solid white; /* Membuat garis sepanjang wadah tersebut */
+    width: 90%; 
+    border-bottom: 2px solid white; 
     padding-bottom: 1px;
     text-align: center;
 }
