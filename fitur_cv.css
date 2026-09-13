@@ -1,0 +1,17 @@
+
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.profile .About {
+    flex-direction: column;
+}
+
+.profile img {
+    object-fit: cover;
+    width: 125px;
+    height: 150px;
+}
